@@ -18,7 +18,7 @@ This project utilizes a genetic algorithm to solve Sudoku puzzles by simulating 
 ## Run
 
 ```bash
-python GA_to_solve_Sudoku.py
+python main.py
 ```
 
 ## Output Structure
