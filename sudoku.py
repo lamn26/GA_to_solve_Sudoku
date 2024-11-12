@@ -17,9 +17,9 @@ class Sudoku:
 
     # Create and return a copy of the current Sudoku object
     def make_copy(self):
-        return Sudoku(init=self.full_grid.copy())  # Use np.copy() to avoid reference issues
+        return Sudoku(init=self.full_grid.copy())
 
-    # Display the Sudoku grid in a human-readable format
+    # Display the Sudoku grid
     def display(self):
         for i, row in enumerate(self.full_grid):
             print(" ".join(str(cell) for cell in row[:3]), "|",

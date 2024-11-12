@@ -10,7 +10,7 @@ class Individual:
         self.chromosome = chromosome
         self.fitness = 0  # Initialize the fitness value of the individual
 
-    # Count the number of unique elements in a given line (row, column, or subgrid)
+    # Count the number of unique elements
     def count_unique_elements(self, line):
         return len(set(line))
 
@@ -64,7 +64,7 @@ class Individual:
         # After mutation, update the individual's fitness
         self.update_fitness()
         
-    # Return the fitness of the individual (the number of unique values in rows, columns, and grids)
+    # Return the fitness of the individual
     def fitness_calculation(self):
         return self.fitness
 
