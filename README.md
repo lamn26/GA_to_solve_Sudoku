@@ -26,4 +26,4 @@ python GA_to_solve_Sudoku.py
 1. **sudoku.txt**: Sudoku initial state.
 2. **final_sudoku.txt**: Sudoku ending state.
 3. **sudoku_solution.txt**: Sudoku solving process (describe the best fitness through each step)
-4. **convergence_plot.png**: Convergence plot
+4. **convergence_plot.png**: Convergence graph
